@@ -1,0 +1,15 @@
+.negro{
+	border: 10px solid black;
+}
+
+
+.naranja{
+	margin: 0px;
+	border: 10px solid orange;
+}
+
+.amarillo{
+	margin: 0px;
+	border: 10px solid yellow;
+	background-color: green;
+}
