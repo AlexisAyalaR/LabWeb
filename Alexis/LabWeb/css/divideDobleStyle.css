@@ -1,0 +1,32 @@
+.total{
+	width: 100%;
+	height: 100%;
+}
+
+.verde{
+	width: 50%;
+	height: 50%;
+	background-color: green;
+	float: left;
+}
+
+.azul{
+	width: 50%;
+	height: 50%;
+	background-color: blue;
+	float: right;
+}
+
+.amarillo{
+	width: 50%;
+	height: 50%;
+	background-color: yellow;
+	float: left;
+}
+
+.rojo{
+	width: 50%;
+	height: 50%;
+	background-color: red;
+	float: right;
+}

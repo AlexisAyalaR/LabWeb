@@ -1,12 +1,11 @@
 .azul{
-	width: 1263px;
-	height: 315px;
+	width: 100%;
+	height: 50%;
 	background-color: blue;
 }
 
 .rojo{
-	width: 1263px;
-	height: 315px;
+	width: 100%;
+	height: 50%;
 	background-color: red;
-}
 }

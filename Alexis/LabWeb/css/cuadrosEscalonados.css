@@ -1,0 +1,47 @@
+.azul1{
+	width: 20%;
+	height: 35%;
+	background-color: #C1C9F5;
+	float: left;
+
+}
+
+.azul2{
+	width: 20%;
+	height: 35%;
+	background-color: #909FF1;
+	float: left;
+	position: relative;
+    top: 35px;
+
+}
+
+.azul3{
+	width: 20%;
+	height: 35%;
+	background-color: #556DF0;
+	float: left;
+	position: relative;
+    top: 70px;
+	
+}
+
+.azul4{
+	width: 20%;
+	height: 35%;
+	background-color: #1E39CF;
+	float: left;
+	position: relative;
+    top: 105px;
+	
+}
+
+.azul5{
+	width: 20%;
+	height: 35%;
+	background-color: #000000;
+	float: right;
+	position: relative;
+    top: 140px;
+	
+}
