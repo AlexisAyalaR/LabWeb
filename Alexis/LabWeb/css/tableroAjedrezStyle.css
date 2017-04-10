@@ -1,0 +1,38 @@
+.primerRenglon{
+	width: 100%;
+	height: 35%;
+}
+
+.segundoRenglon{
+	width: 100%;
+	height: 35%;
+}
+
+.tercerRenglon{
+	width: 100%;
+	height: 35%;
+}
+
+.cuartoRenglon{
+	width: 100%;
+	height: 35%;
+}
+
+.cuadroBlanco{
+	width: 20%;
+	height: 100%;
+	background-color: white;
+	float: left;
+}
+
+.cuadroNegro{
+	width: 20%;
+	height: 100%;
+	background-color: black;
+	float: left;
+}
+
+a {
+	position: relative;
+	top: 180px;
+}

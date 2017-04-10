@@ -1,0 +1,55 @@
+* {
+	font-family: Georgia, serif;
+}
+
+h1{
+	font-size: 150%;
+}
+
+h2{
+	font-size: 110%;
+}
+
+h3{
+	font-size: 100%;
+}
+
+body #Titulo{
+	margin-bottom: 5px;
+}
+
+body .Principal{
+	width: 100%;
+	height: 100%;
+	border-top: 1px solid #a2a9b1;
+	text-align: justify;
+}
+
+body .Indice{
+
+	background-color: #f8f9fa;
+	line-height: 150%;
+	width: 50%;
+	border: 1px solid #a2a9b1;
+	margin-top: 10px;
+	font-size: 100%;
+}
+
+.Indice #TituloIndice{
+	text-align: center;
+}
+
+body .elementoDiv{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+body .elementoAdentroDiv{
+	border-top: 1px solid #a2a9b1;
+}
+
+.panel{
+	width: 10%;
+	height: 100%;
+	float: left;
+}
