@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<!-- saved from url=(0088)file:///Users/AlexisAyala/Desktop/LabWeb/Alexis/LabWeb/html/guiaHtml.html#Ejercicios_CSS -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<link rel="stylesheet" type="text/css" href="./Guia HTML_files/guiaHtmlStyle.css">
+	<title>Guia HTML</title>
+</head>
+<body>
+	<h1 id="Titulo">Guia para HTML</h1>
+
+	<div class="Principal">
+
+		<aside class="asideIndice">
+			<header>
+				<h2 id="TituloIndice">Indice</h2>
+			</header>
+			<nav>
+				<ol>
+					<li>
+						<a href="file:///Users/AlexisAyala/Desktop/LabWeb/Alexis/LabWeb/html/guiaHtml.html#DOCTYPE" id="linkBlanco">
+							<span>DOCTYPE</span>
+						</a>
+					</li>
+					<li>
+						<a href="file:///Users/AlexisAyala/Desktop/LabWeb/Alexis/LabWeb/html/guiaHtml.html#Elementos_Principales" id="linkBlanco">
+							<span>Elementos Principales</span>
+						</a>
+					</li>
+					<li>
+						<a href="file:///Users/AlexisAyala/Desktop/LabWeb/Alexis/LabWeb/html/guiaHtml.html#Links_e_Imagenes" id="linkBlanco">
+							<span>Links e Imagenes</span>
+						</a>
+					</li>
+					<li>
+						<a href="file:///Users/AlexisAyala/Desktop/LabWeb/Alexis/LabWeb/html/guiaHtml.html#Atributos_comunes" id="linkBlanco">
+							<span>Atributos comunes</span>
+						</a>
+					</li>
+					<li>
+						<a href="file:///Users/AlexisAyala/Desktop/LabWeb/Alexis/LabWeb/html/guiaHtml.html#Tipos_de_letra" id="linkBlanco">
+							<span>Tipos de letra</span>
+						</a>
+					</li>
+					<li>
+						<a href="file:///Users/AlexisAyala/Desktop/LabWeb/Alexis/LabWeb/html/guiaHtml.html#Tablas" id="linkBlanco">
+							<span>Tablas</span>
+						</a>
+					</li>
+					<li>
+						<a href="file:///Users/AlexisAyala/Desktop/LabWeb/Alexis/LabWeb/html/guiaHtml.html#Listas" id="linkBlanco">
+							<span>Listas</span>
+						</a>
+					</li>
+					<li>
+						<a href="file:///Users/AlexisAyala/Desktop/LabWeb/Alexis/LabWeb/html/guiaHtml.html#Elementos_de_bloque_o_linea" id="linkBlanco">
+							<span>Elementos de bloque o linea</span>
+						</a>
+					</li>
+					<li>
+						<a href="file:///Users/AlexisAyala/Desktop/LabWeb/Alexis/LabWeb/html/guiaHtml.html#Layouts" id="linkBlanco">
+							<span>Layouts</span>
+						</a>
+					</li>
+					<li>
+						<a href="file:///Users/AlexisAyala/Desktop/LabWeb/Alexis/LabWeb/html/guiaHtml.html#Otros" id="linkBlanco">
+							<span>Otros</span>
+						</a>
+					</li>
+					<li>
+						<a href="file:///Users/AlexisAyala/Desktop/LabWeb/Alexis/LabWeb/html/guiaHtml.html#Ejercicios_CSS" id="linkBlanco">
+							<span>Ejercicios CSS</span>
+						</a>
+					</li>
+				</ol>
+			</nav>
+		</aside>
+
+		<div class="main">
+
+			<p> Esta es mi pequeña guia para html. Contiene los elementos mas utilizados, una pequeña descripcion y ejemplos de los mismos. Al final tambien hay unos cuantos ejercicios de CSS. Y para hacer mas texto y que se vea bonito, voy a decir que hice esto en cuarto semestre y mi profesor es Victor. Estudio Matematicas Aplicadas e ingenieria en computacion en el ITAM.</p>
+
+			<img src="./Guia HTML_files/html.jpg">
+
+
+			<div class="elementoDiv">
+				<h2>
+					<span id="DOCTYPE">DOCTYPE</span>
+				</h2>
+				<div class="elementoAdentroDiv">
+					<p>Define el tipo de documento. Siempre que utilizemos
+					HTML5 se escribira:</p>
+					<p> !DOCTYPE html </p>
+				</div>
+			</div>
+
+			<div class="elementoDiv">
+				<h2>
+					<span id="Elementos_Principales"> Elementos Principales</span>
+				</h2>
+				<div class="elementoAdentroDiv">
+					<h3>html</h3>
+						<p>Es el elemento base de html, la ruta. Todo tiene que estar
+						dentro de esta etiqueta. Puede tener el atributo lang
+						que especifica el lenguaje</p>
+						<p> html lang="en-US" </p>
+
+						<h3>head</h3>
+						<p>Contiene toda la informacion meta del documento</p>
+
+					<h3>title</h3>
+						<p>Especifica el titulo del documento</p>
+
+					<h3>body</h3>
+						<p>Define toda la parte visible del documento, todo el cuerpo</p>
+
+					<h3>p</h3>
+						<p>Crea un parrafo</p>
+
+					<h3>br</h3>
+						<p>Se utiliza para saltar lineas</p>
+
+					<table id="tablaHs">
+							<tbody><tr>
+								<th>#</th>
+								<th>1</th>
+								<th>2</th>
+								<th>3</th>
+								<th>4</th>
+								<th>5</th>
+								<th>6</th>
+							</tr>
+							<tr>
+								<th>
+								</th><th><h1 id="h1Subtitulo">h1</h1></th>
+								<th><h2>h2</h2></th>
+								<th><h3>h3</h3></th>
+								<th><h4>h4</h4></th>
+								<th><h5>h5</h5></th>
+								<th><h6>h6</h6></th>
+							</tr>
+					</tbody></table>
+
+					<h3>h's</h3>
+						<p>Define un encabezado. Mientras mas pequeño sea el
+						numero, mas grande es la letra [1,6].</p>
+
+
+					<h3>pre</h3>
+						<p>Es un parrafo que preserva espacio y saltos de linea</p>
+
+					<p>A continuacion se puede ver como se ven estos elementos: 
+					</p>
+					<img src="./Guia HTML_files/elementosBasicos.png">
+					<br>
+				</div>
+			</div>
+
+			<div class="elementoDiv">
+
+				<h2>
+					<span id="Links_e_Imagenes">Links e Imagenes</span>
+				</h2>
+
+				<div class="elementoAdentroDiv">
+
+					<h3>a</h3>
+						<p>Define un link. Se tiene que especificar un atributo 
+						href tipo String con la URL como parametro</p>
+						<a href="https://www.w3schools.com/"> Como este que lleva a W3Schools</a>
+						<p> a href="link"</p>
+
+					<h3>img</h3>
+						<div class="ponteVergaImg">
+							<img src="./Guia HTML_files/avatar.jpg" width="200" height="200">
+						</div>
+						<p id="ponteVergaTxt">Define una imagen. Se tiene que especificarlos atributos:
+						src (source), alt (alternative text), width y height, tambien acepta gifs. Todos tipo String </p>
+						<p> img src="link" alt="texto" width="tamaño" height="tamaño" </p>
+
+					<h3>map</h3>
+						<p>Define una imagen con areas clickeables</p>
+
+					<h3>area</h3>
+						<p>Define en area para un image-map</p>
+
+				</div>
+
+			</div>
+
+			<div class="elementoDiv">
+
+				<h2>
+					<span id="Atributos_comunes">Atributos comunes</span>
+				</h2>
+
+				<div class="elementoAdentroDiv">
+
+					<h3>alt</h3>
+						<p>Especifica un texto alternativo para cuando una imagen no es cargada</p>
+
+					<h3>disabled</h3>
+						<p>Especifica un elemento que debe de ser incapacitado</p>
+
+					<h3>href</h3>
+						<p>Especifica un URL para un link</p>
+
+					<h3>id</h3>
+						<p>Especifica un id para un elemento</p>
+
+					<h3>src</h3>
+						<p>Especifica un URL para un link</p>
+
+					<h3>style</h3>
+						<p>Especifica un estilo CSS</p>
+
+					<h3>title</h3>
+						<p>Especifica informacion extra para un elemento</p>
+
+				</div>
+
+			</div>
+
+			<div class="elementoDiv">
+
+				<h2>
+					<span id="Tipos_de_letra">Tipos de letra</span>
+				</h2>
+
+				<div class="elementoAdentroDiv">
+
+					<h3>b</h3>
+						<p>Negritas</p>
+						<b>Ejemplo</b>
+
+					<h3>strong</h3>
+						<p>texto importante</p>
+						<strong>Ejemplo</strong>
+
+					<h3>i</h3>
+						<p>italicas</p>
+						<i>Ejemplo</i>
+
+					<h3>em</h3>
+						<p>Emfatiza texto</p>
+						<em>Ejemplo</em>
+
+					<h3>mark</h3>
+						<p>Resalta texto</p>
+						<mark>Ejemplo</mark>
+
+					<h3>small</h3>
+						<p>Enpequeñece texto</p>
+						<small>Ejemplo</small>
+
+					<h3>del</h3>
+						<p>Texto borrado</p>
+						<del>Ejemplo</del>
+
+					<h3>ins</h3>
+						<p>Subraya texto</p>
+						<ins>Ejemplo</ins>
+
+					<h3>sub</h3>
+						<p>subindice</p>
+						<sub>Ejemplo</sub>
+
+					<h3>sup</h3>
+						<p>superindice</p>
+						<sup>Ejemplo</sup>
+
+				</div>
+
+			</div>
+
+			<div class="elementoDiv">
+
+				<h2>
+					<span id="Tablas">Tablas</span>
+				</h2>
+
+				<div class="elementoAdentroDiv">
+
+					<h3>table</h3>
+						<p>Define la tabla. De cajon, La cabezera de la tabla esta centrada</p>
+
+					<h3>caption</h3>
+						<p>Agreaga un Titulo</p>	
+
+					<h3>tr</h3>
+						<p>Define las filas de una tabla</p>
+
+					<h3>th</h3>
+						<p>Define la cabezera</p>
+
+					<h3>td</h3>
+						<p>Define las celdas o el data de la tabla. rowspan sirve para que haya mas de una celda</p>
+
+					<br>
+					<b>Ejemplo:</b>
+					<br>
+
+					<table>
+						<caption>TITULO</caption>
+						<tbody><tr>
+							<th>Columna 1</th>
+							<th>Columna 2</th>
+						</tr>
+						<tr>
+							<td>(1,1)</td>
+							<td>(1,2)</td>
+						</tr>
+						<tr>
+							<td>(2,1)</td>
+							<td>(2,2)</td>
+						</tr>
+					</tbody></table>
+
+					<h3>thead</h3>
+						<p>Agrupa el contenido de la cabezera en una tabla</p>
+
+					<h3>tbody</h3>
+						<p>Agrupa el contenido de la cabezera en una tabla</p>
+
+					<h3>tfoot</h3>
+						<p>Agrupa el contenido de la cabezera en una tabla</p>
+
+				</div>
+
+			</div>
+
+			<div class="elementoDiv">
+
+				<h2>
+					<span id="Listas">Listas</span>
+				</h2>
+
+				<div class="elementoAdentroDiv">
+
+					<p>Se pueden hacer de varios tipos</p>
+
+					<h3>ul</h3>
+						<p>Listas desordenadas, el tipo se determina con style.</p>
+
+					<h3>ol</h3>
+						<p>Listas ordenadas, el tipo se determina con type.</p>
+
+					<h3>li</h3>
+						<p>Elementos de la lista</p>
+
+					<br>
+					<p>Ejemplo Lista desordenada</p>
+					<ul>
+						<li>style="list-style-type:disc"</li>
+						<li>style="list-style-type:circle"</li>
+						<li>style="list-style-type:square"</li>
+						<li>style="list-style-type:none"</li>
+					</ul>
+
+					<br>
+					<p>Ejemplo Lista ordenada</p>
+					<ol>
+						<li>type="1"</li>
+						<li>type="A"</li>
+						<li>type="a"</li>
+						<li>type="I"</li>
+						<li>type="i"</li>
+
+					</ol>
+					<br>
+
+					<h3>dl</h3>
+						<p>lista descriptiva</p>
+
+					<h3>dt</h3>
+						<p>Define uno de los elementos de la descripcion</p>
+
+					<h3>dd</h3>
+						<p>Descripcion de dt</p>
+
+					<br>
+					<p>Ejemplo Lista descriptiva</p>
+					<dl>
+						DESCRIPCION
+						<dt>Elemento1</dt>
+							<dd>Descripcion 1</dd>
+							<dd>Descripcion 2</dd>
+						<dt>Elemento2</dt>
+							<dd>Descripcion 1</dd>
+					</dl>
+				</div>
+			</div>
+
+			<div class="elementoDiv">
+
+				<h2>
+					<span id="Elementos_de_bloque_o_linea">Elementos de bloque o linea
+					</span>
+				</h2>
+
+				<div class="elementoAdentroDiv">
+					<h3>div</h3>
+						<p>Define un bloque</p>
+
+					<h3>span</h3>
+						<p>Define un elemento en linea</p>
+				</div>
+
+			</div>
+
+			<div class="elementoDiv">
+
+				<h2>
+					<span id="Layouts">Layouts</span>
+				</h2>
+
+				<div class="elementoAdentroDiv">
+
+					<br>
+					<img src="./Guia HTML_files/img_sem_elements.gif">
+					<ul>
+						<li> header - Define la cabezera</li>
+						<li> nav -Define un contenedor para links de navegacion </li>
+						<li> section - Define una seccion</li>
+						<li> article - Define un articulo que esta contenido en si mismo</li>
+						<li> aside - Define como una barra lateral </li>
+						<li> footer - Define el final (footer) </li>
+						<li> details - Define detalles adicionales</li>
+						<li> summary - Define un heading para resumir</li>
+					</ul>
+
+				</div>
+
+			</div>
+
+			<div class="elementoDiv">
+
+				<h2>
+					<span id="Otros">Otros</span>
+				</h2>
+
+				<div class="elementoAdentroDiv">
+
+					<h3>Caracteres reservados</h3>
+						<img src="./Guia HTML_files/Entityname.png">
+
+					<h3>iframe</h3>
+						<p>Define una pagina dentro de otra</p>
+
+					<h3>q</h3>
+						<p>Comillas dobles</p>
+						<q>Ejemplo</q>
+
+					<h3>blockquote</h3>
+						<p>Cita parrafos</p>
+						<blockquote>Ejemplo</blockquote>
+
+					<h3>abbr</h3>
+						<p>Abreviaciones</p>
+
+					<h3>address</h3>
+						<p>Define informacion de contacto, italicas</p>
+
+					<h3>cite</h3>
+						<p>cita, italicas</p>
+
+					<h3>bdo</h3>
+						<p>Escribe el texto de reversa</p>
+						<bdo>Ejemplo</bdo>
+
+				</div>
+
+			</div>
+
+			<div class="elementoDiv">
+
+				<h2>
+					<span id="Ejercicios_CSS">Ejercicios CSS</span>
+				</h2>
+
+				<div class="elementoAdentroDiv">
+
+					<ul>
+						<li>
+							<a href="file:///Users/AlexisAyala/Desktop/LabWeb/Alexis/LabWeb/html/Cuadro1.html"> Cuadro con diferentes colores</a>
+						</li>
+						<li>
+							<a href="file:///Users/AlexisAyala/Desktop/LabWeb/Alexis/LabWeb/html/divideColores.html"> Pagina divide colores 
+							</a>
+						</li>
+						<li>
+							<a href="file:///Users/AlexisAyala/Desktop/LabWeb/Alexis/LabWeb/html/divideDobleColores.html"> Pagina divide doble colores
+							</a>
+						</li>
+						<li>
+							<a href="file:///Users/AlexisAyala/Desktop/LabWeb/Alexis/LabWeb/html/cuadrosEscalonados.html"> Cuandros Escalonados
+							</a>
+						</li>
+						<li>
+							<a href="file:///Users/AlexisAyala/Desktop/LabWeb/Alexis/LabWeb/html/tableroAjedrez.html"> Tablero Ajedrez
+							</a>
+						</li>
+						<li>
+							<a href="file:///Users/AlexisAyala/Desktop/LabWeb/Alexis/LabWeb/html/cuadrosTamanos.html"> Cuadros diferentes tamanos
+							</a>
+						</li>
+					</ul>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+
+
+
+</body></html>
