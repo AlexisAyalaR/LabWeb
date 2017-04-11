@@ -1,3 +1,7 @@
+/*
+Esta hecho mierda el codigo, no leer
+*/
+
 * {
 	font-family: Georgia, serif;
 	margin-right: 1%;
@@ -27,13 +31,18 @@ body{
 	border: 1px solid #a2a9b1;
 }
 
-body #Titulo{
+header, footer{
 	margin-bottom: 5px;
-	background-color: #eaeaed;
+	background-color: #000000;
 	margin: 0px;
 	padding-top: 1%;
 	padding-bottom: 1%;
 	text-align: center;
+	color: #ffffff;
+}
+
+#titulo{
+	font-size: 200%;
 }
 
 #imgHtmlImg{
@@ -58,18 +67,27 @@ body .Principal{
 
 #TituloIndice{
 	text-align: center;
+	font-size: 140%;
 }
 
-.Principal .asideIndice{
+.asideIndice{
 	width: 17%;
-	height: 100%;
+	height: 8029px;
 	line-height: 150%;
-	font-size: 100%;
+	font-size: 105%;
 	border: 1px solid #a2a9b1;
 	background-color: #42444e;
 	color: white;
-	margin: 0px;
-	border-right: 0px;
+	border-right: 0;
+	float: left;
+    max-width: 140px;
+    margin: 0;
+    border-left: 0;
+    padding: 2em;
+    padding-left: 0;
+    padding-right: 2.5em;
+    text-align: left;
+
 }
 
 #linkBlanco{
@@ -79,11 +97,9 @@ body .Principal{
 }
 
 .main{
-	width: 80%;
+	width: 97%;
 	height: 100%;
 	float: right;
-	position: relative;
-	bottom: 380px;
 	text-align: justify;
 	margin-top: 1.5%;
 }
@@ -112,6 +128,15 @@ body .ponteVergaImg{
 
 body #tablaHs{
 	float: right;
-	position: relative;
-	right: 200px;
+}
+
+article{
+	margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+
+#elementosImg{
+	width: 95%;
 }
