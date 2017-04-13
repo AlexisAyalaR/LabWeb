@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="../css/guiaHtmlStyle.css">
 	<title>Guia HTML</title>
 </head>
@@ -80,7 +81,7 @@
 
 			<div class="main">
 
-				<p id="txtHtml"> Esta es mi pequeña guia para html. Contiene los elementos mas utilizados, una pequeña descripcion y ejemplos de los mismos. Al final tambien hay unos cuantos ejercicios de CSS. Y para hacer mas texto y que se vea bonito, voy a decir que hice esto en cuarto semestre y mi profesor es Victor. Estudio Matematicas Aplicadas e ingenieria en computacion en el ITAM.</p>
+				<p id="txtPrincipal"> Esta es mi pequeña guia para html. Contiene los elementos mas utilizados, una pequeña descripcion y ejemplos de los mismos. Al final tambien hay unos cuantos ejercicios de CSS. Y para hacer mas texto y que se vea bonito, voy a decir que hice esto en cuarto semestre y mi profesor es Victor. Estudio Matematicas Aplicadas e ingenieria en computacion en el ITAM.</p>
 
 				<div class="imgHtml">
 					<img src="../img/html.jpg" id="imgHtmlImg" >
@@ -91,8 +92,8 @@
 				<br>
 				<br>
 				<br>
-				<div class="elementoDiv">
-					<h2>
+				<div class="elementoDivEspecial">
+					<h2 id="doctypeT">
 						<span id="DOCTYPE">DOCTYPE</span>
 					</h2>
 					<div class="elementoAdentroDiv">
@@ -181,19 +182,21 @@
 							<p> a href="link"</p>
 
 						<h3>img</h3>
-							<div class="ponteVergaImg">
-								<img src="https://akphoto3.ask.fm/627/366/079/-189996990-20511fj-843goa8th52rsqk/original/avatar.jpg" width="200" height="200">
-							</div>
 							<p id="txtHtml">Define una imagen. Se tiene que especificarlos atributos:
 							src (source), alt (alternative text), width y height, tambien acepta gifs. Todos tipo String </p>
 							<p> img src="link" alt="texto" width="tamaño" height="tamaño" </p>
 
-						<h3>map</h3>
-							<p>Define una imagen con areas clickeables</p>
+							<div class="ponteVergaImg">
+								<img src="https://akphoto3.ask.fm/627/366/079/-189996990-20511fj-843goa8th52rsqk/original/avatar.jpg" width="200" height="200" id="ponteImg">
+							</div>
+						<div class="mapArea">
+							<h3>map</h3>
+								<p>Define una imagen con areas clickeables</p>
 
-						<h3>area</h3>
-							<p>Define en area para un image-map</p>
+							<h3>area</h3>
+								<p>Define en area para un image-map</p>
 
+						</div>
 					</div>
 
 				</div>
@@ -452,7 +455,9 @@
 					<div class="elementoAdentroDiv">
 
 						<h3>Caracteres reservados</h3>
-							<img src="../img/Entityname.png">
+							<div class="imgHtml">
+								<img src="../img/Entityname.png" id="imgCaracteres">
+							</div>
 
 						<h3>iframe</h3>
 							<p>Define una pagina dentro de otra</p>

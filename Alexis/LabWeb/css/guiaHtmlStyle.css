@@ -55,6 +55,10 @@ header, footer{
 }
 
 #txtHtml{
+	width: 100%;
+}
+
+#txtPrincipal{
 	width: 60%;
 }
 
@@ -72,7 +76,7 @@ body .Principal{
 
 .asideIndice{
 	width: 17%;
-	height: 8029px;
+	height: 8288px;
 	line-height: 150%;
 	font-size: 105%;
 	border: 1px solid #a2a9b1;
@@ -115,6 +119,11 @@ body .elementoAdentroDiv{
 	padding-left: 15px;
 }
 
+body .elementoDivEspecial{
+	margin-top: 60px;
+	margin-bottom: 40px;
+}
+
 body #h1Subtitulo{
 	text-align: left;
 }
@@ -122,9 +131,15 @@ body #h1Subtitulo{
 body .ponteVergaImg{
 	float: right;
 	position: relative;
-	bottom: 75px;
+	top: 20px;
+	right: 35%;
 
 }
+
+body .mapArea{
+	margin-top: 250px;
+}
+
 
 body #tablaHs{
 	float: right;
@@ -139,4 +154,32 @@ article{
 
 #elementosImg{
 	width: 95%;
+}
+
+#imgCaracteres{
+	width: 90%;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    
+    h2{
+    	text-align: center;
+    }
+    #txtHtml{
+    	width: 100%;
+    }
+    #imgHtmlImg{
+    	position: relative;
+    	bottom: 5px;
+    	right: 160px;
+    }
+    #ponteImg{
+    	width: 200px;
+    	height: 200px;
+    }
+    .asideIndice{
+		height: 7985px;
+    }
 }
