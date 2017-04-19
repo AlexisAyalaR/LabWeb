@@ -1,0 +1,9 @@
+.main{
+	position: relative;
+	left: 40%;
+}
+p{
+	text-align: center;
+	position: relative;
+	right: 40%;
+}
