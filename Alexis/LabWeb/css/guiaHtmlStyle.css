@@ -34,26 +34,34 @@ header{
 	z-index: 4;
 }
 
+footer{
+	background-color: #42444e;
+	color: #ffffff;
+	width: 100%;
+	padding: 1%;
+	text-align: center;
+}
+
 header h1{
 	float: left;
-	font-size: 280%;
+	font-size: 270%;
 	margin-left: 3%;
 
 }
 
 header #bIndice{
 	float: left;
-	font-size: 130%;
+	font-size: 140%;
 	margin-left: 30%;
-	margin-top: 4%;
+	margin-top: 3.5%;
 	cursor: pointer;
 }
 
 header #bOtro{
 	float: left;
-	font-size: 130%;
+	font-size: 140%;
 	margin-left: 5%;
-	margin-top: 4%;
+	margin-top: 3.50%;
 }
 
 body *{
@@ -177,17 +185,17 @@ article{
     background-color: #111; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     margin-top: 8%;
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    transition: 0.3s; /* 0.5 second transition effect to slide in the sidenav */
 }
 
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 110%;
+    font-size: 120%;
     line-height: 110%;
     color: #818181;
     display: block;
-    transition: 0.3s;
+    transition: 0.7s;
 }
 
 .sidenav a:hover, .offcanvas a:focus{
@@ -197,13 +205,13 @@ article{
 .sidenav .closebtn {
     position: absolute;
     top: 0;
-    right: 25px;
+    right: 10px;
     font-size: 36px;
     margin-left: 50px;
 }
 
-.indiceMain {
-    transition: margin-left .5s;
+#indiceMain {
+	transition: 0.3s;
 }
 
 @media only screen and (max-width: 768px) {
