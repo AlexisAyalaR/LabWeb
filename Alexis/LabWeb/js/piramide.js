@@ -6,7 +6,6 @@ function generaPiramide() {
 	if(n == ''){
 		n = 0;
 	}
-
 	for (var i = 1; i <= n; i++){
 		for (var j = 0; j < i; j++){
 			p.innerHTML +=0;

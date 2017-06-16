@@ -1,0 +1,76 @@
+*{
+	margin: 0%;
+}
+
+.main{
+	background-color: #0066ff;
+	float: left;
+	width: 100%;	
+	margin-top:0%;
+	padding-bottom: 0.1%;
+}
+
+#titulo{
+	float: left;
+	font-size: 280%;
+	margin-left: 10%;
+	color: white;
+	margin-top: 0.5%;
+}
+
+#bAceptar{
+	background-color: #005ce6;
+	float: left;
+	font-size: 160%;
+	margin-left: 8%;
+	margin-bottom: 0%;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-top: 1.5%;
+	padding-bottom: 1.2%;
+	color: white;
+	border-right: 1px solid white;
+	border-left: 1px solid white;
+	cursor: pointer;
+}
+
+#bAceptar:hover, #bAceptar:focus {
+    background-color: #0047b3;
+}
+
+#bDropdown{
+	font-size: 155%;
+	background-color: #005ce6;
+	border: 0px solid black;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+	padding: 1.35%;
+	margin-right: 0%;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+#bDropdown:hover, #bDropdown:focus {
+    background-color: #0047b3;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+#res{
+	padding-top: 8%;
+	margin-left: 33%;
+}
+
+#regresa{
+	float: left;
+}
+
+#muestraResultado{
+	margin-top: 3%;
+	padding-top: 1%;
+	font-size: 25;
+	border-top: 3px solid black;
+}

@@ -58,5 +58,3 @@ function generaClose(div){
 }
 
 
-
-		//{ div.parentNode.removeChild(div); });
