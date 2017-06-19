@@ -15,7 +15,9 @@ function generaIdioma(){
 		id.appendChild(t);
 		div.appendChild(dropDown);
 		p.appendChild(div);
-		x.addEventListener("click", function(){ div.parentNode.removeChild(div); });
+		x.addEventListener("click", function(){ 
+			eliminaIdioma(div, idioma, dropDown);
+		});
 		arreglo[numero] = idioma;
 		numero++;
 	}
@@ -82,10 +84,26 @@ function muestraIdiomas(){
 		res.innerHTML += "Idioma: "+arreglo[j]+"; Nivel: "+document.getElementById("Div"+j).value;
 		res.innerHTML += "<br>";
 	}
+	alert("Lenguajes Modificados");
 }
 
 
+function eliminaIdioma(div, idioma, dropDown){ 
+	
+	for (var k = 0; k < numero; k++) {
+		if(arreglo[k] == idioma){
+			arreglo[k] = arreglo[numero-1];
+			arreglo[numero-1] = '';
+			var num = numero-1;
+			document.getElementById("Div"+num).id = "Div"+k;
+			k = numero-1
+			numero--;
+		}
+	}
 
+	div.parentNode.removeChild(div); 
+	
+}
 
 
 	
