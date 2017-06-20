@@ -1,0 +1,62 @@
+body{
+	background-color: #f8f9fa;
+	margin: 0;
+}
+
+.main{
+	width: 100%;
+}
+
+.guias{
+	margin-top: 5%;
+	width: 100%;
+}
+
+.titulo{
+	font-size: 130%;
+	margin-left: 33.5%;
+	font-family: Caflisch Script Pro, cursive;
+}
+
+h1{
+	text-align: center;
+}
+
+div{
+	float: left;
+	text-align: center;
+}
+
+.html{
+	color: white;
+	width: 20%;
+	height: 45%;
+	margin-left: 0.75%;
+	background-color: #c74d11;
+	padding-bottom: 2%;
+	border: 1px solid white;
+	border-radius: 10px 50px 50px 50px;
+}
+
+.css{
+	color: white;
+	width: 20%;
+	height: 45%;
+	margin-left: 19%;
+	background-color: #0969c1;
+	padding-bottom: 2%;
+	border: 1px solid white;
+	border-radius: 10px 50px 50px 50px;
+
+}
+
+.javascript{
+	color: white;
+	width: 20%;
+	height: 45%;
+	margin-left: 19%;
+	background-color: #FFD700;
+	padding-bottom: 2%;
+	border: 1px solid white;
+	border-radius: 10px 50px 50px 50px;
+}
