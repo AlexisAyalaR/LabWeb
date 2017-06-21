@@ -1,47 +1,269 @@
 <html>
 <head>
+	<link rel="stylesheet" type="text/css" href="../../css/guiaCss.css">
 	<title>Guia CSS</title>
 </head>
 <body>
-	<p>No sea metiche</p>
 
-	<p><a href="../index.html"> Regresa</a></p>
+	<div class="main">
 
-	<div class="elementoDiv">
+		<div class="titulo">
+			<header>
+				<h1>Guia para CSS</h1>
 
-		<h2>
-			<span id="Ejercicios_CSS">Ejercicios CSS</span>
-		</h2>
+				<a href="../index.html" id="bRegresa">
+					<p>Regresa</p>
+				</a>
 
-		<div class="elementoAdentroDiv">
+				<div class="indice">
 
-			<ul>
-				<li>
-					<a href="../EjerciciosCss/Cuadro1.html"> Cuadro con diferentes colores</a>
-				</li>
-				<li>
-					<a href="../EjerciciosCss/divideColores.html"> Pagina divide colores 
+					<a href="#sintaxis" class="elementosIndice">
+						<span>Sintaxis</span>
 					</a>
-				</li>
-				<li>
-					<a href="../EjerciciosCss/divideDobleColores.html"> Pagina divide doble colores
+					<a href="#selectors" class="elementosIndice">
+						<span>Selectors</span>
 					</a>
-				</li>
-				<li>
-					<a href="../EjerciciosCss/cuadrosEscalonados.html"> Cuandros Escalonados
+					<a href="#modelo_de_caja" class="elementosIndice">
+						<span>Modelo de Caja</span>
 					</a>
-				</li>
-				<li>
-					<a href="../EjerciciosCss/tableroAjedrez.html"> Tablero Ajedrez
+					<a href="#propiedades1" class="elementosIndice">
+						<span>Propiedades</span>
 					</a>
-				</li>
-				<li>
-					<a href="../EjerciciosCss/cuadrosTamanos.html"> Cuadros diferentes tamanos
+					<a href="#unidades" class="elementosIndice">
+						<span>Unidades</span>
+					</a>	
+					<a href="#media" class="elementosIndice">
+						<span>Elementos Principales</span>
 					</a>
-				</li>
-			</ul>
+				</div>
+
+			</header>
+		</div>
+
+		<div class="info">
+
+			<div id="Sintaxis" class="elementosInfo">
+
+				<h2 id="sintaxis" class="infoTitulo">
+					<span>Sintaxis</span>
+				</h2>
+
+					<p>Para poder estilizar un elemento se tiene que seguir una sitaxis especifica. Esta se puede ver a contiunacion:</p>
+					<img src="../../img/howToCss.gif">
+			</div>
+
+			<div id="selectors" class="elementosInfo">
+
+				<h2 id="selectors" class="infoTitulo">
+					<span >Selectors</span>
+				</h2>
+
+					<p>A continuacion se presentan toda las formas de seleccionar 
+						elementos para agregarles estilo:</p>
+
+					<h3>Seleccionar todo</h3>
+					<p>*{
+						<br>propiedades: valores;
+						<br>
+					}</p>
+
+					<h3>Nombre del elemento</h3>
+					<p>div{
+						<br>propiedades: valores;
+						<br>
+					}</p>
+
+					<h3>Por clase</h3>
+					<p>.nombreClase{
+						<br>propiedades: valores;
+						<br>
+					}</p>
+
+					<h3>Por ID</h3>
+					<p>#nombreID{
+						<br>propiedades: valores;
+						<br>
+					}</p>
+
+			</div>
+
+			<div id="modeloCaja" class="elementosInfo">
+
+				<h2 id="modelo_de_caja" class="infoTitulo">
+					<span >Modelo de Caja</span>
+				</h2>
+
+				<p>En el modelo de caja existen cuatro elementos:</p>
+				<h3>Contenido</h3>
+					<p>Es lo que esta dentro de la caja</p>
+				<h3>Padding</h3>
+					<p>El espacio entre el contenido y el borde o las orillas</p>
+				<h3>Border</h3>
+					<p>El borde o las orillas de la caja</p>
+				<h3>Margin</h3>
+					<p>Es el espacio entre la caja y lo demas</p>
+
+				<img src="../../img/boxModel.png">
+			</div>
+
+			<div id="Propiedades" class="elementosInfo">
+
+				<h2 id="propiedades1" class="infoTitulo">
+					<span >Propiedades</span>
+				</h2>
+
+				<p>Algunas de las propiedades mas coumunes son:</p>
+
+				<div class="texto">
+					<h3>Texto</h3>
+					<p>Propiedades para estilizar texto:</p>
+
+					<h4>font-family</h4>
+					<p>Cambia la familia</p>
+
+					<h4>font-style</h4>
+					<p>Cambia el tipo</p>
+
+					<h4>font-size</h4>
+					<p>Cambia el tamano</p>
+
+					<h4>color</h4>
+					<p>Cambia el color</p>
+
+					<h4>font-weight</h4>
+					<p>Cambia que tan ancha es la letra</p>
+
+				</div>
+
+				<div class="posicion">
+					<h3>Posicion</h3>
+					<p>Propiedades para cambiar la posicion de algunos elementos:</p>
+
+					<h4>position</h4>
+					<p>Coloca elementos en la pantalla</p>
+					<p>Algunos de los valores que puede tomar son:</p>
+					
+						<h5>absolute</h5>
+						<p>La posicion literal</p>
+
+						<h5>fixed</h5>
+						<p>La posicion conforme a otras cosas</p>
+
+						<h5>relative</h5>
+						<p>La posicion conforme al documento</p>
+
+					<h4>float</h4>
+					<p>Hacia donde esta cargado el "peso"</p>
+
+					<h4>display</h4>
+					<p>Especifica como esta posicionado el elemento en el flujo del documento</p>
+					
+					<h4>z-index</h4>
+					<p>La "altura" del elemento</p>
+
+					<h4>overflow</h4>
+					<p>Especifica lo que sucede fuera del contenedor</p>
+
+				</div>
+
+				<div class="otros">
+					<h3>Otras proiedades comunmente utilizadas:</h3>
+
+					<h4>background</h4>
+					<p>Espeficica el tipo de fondo que se requiere</p>
+
+					<h4>cursor</h4>
+					<p>Se especifica el cursor</p>
+
+					<h4>width</h4>
+					<p>Se especifica la anchura</p>
+
+					<h4>height</h4>
+					<p>Se especifica la altura</p>
+
+				</div>
+
+
+			</div>
+
+			<div id="unidades" class="elementosInfo">
+
+				<h2 id="unidades" class="infoTitulo">
+					<span>Unidades</span>
+				</h2>
+
+				<p>Existen muchos tipos distintos de unidades pero los mas comunes son:</p>
+
+				<h3>px</h3>
+				<p>Pixeles, 1px = 0.02645833 cm</p>
+
+				<h3>%</h3>
+				<p>Porcentaje de la parte visual de la pagina</p>
+
+				<h3>em</h3>
+				<p>Relativo al tamano de la letra del elemento</p>
+
+				<h3>vmin</h3>
+				<p>Relativo al 1% de la dimension mas pequena de lo que se ve</p>
+
+				<h3>vmax</h3>
+				<p>Relativo al 1% de la dimension mas grande de lo que se ve</p>
+
+			</div>
+
+			<div id="media" class="elementosInfo">
+
+				<h2 id="media" class="infoTitulo">
+					<span>Media</span>
+				</h2>
+				
+				<p>Se utiliza para modificar el documento conforme a un tamano en especifico</p>
+
+				<p>@media only screen and (max-width: X px) {
+					<br>
+					<br>propiedades: valores;
+				}
+				</p>
+
+
+			</div>
+
+			<div class="elementosInfo">
+
+				<h2 class="infoTitulo" id="tituloEjercicios">
+					<span>Ejercicios CSS</span>
+				</h2>
+
+				<div class="ejerciciosCss">
+					<ul>
+						<li>
+							<a href="../EjerciciosCss/Cuadro1.html"> Cuadro con diferentes colores</a>
+						</li>
+						<li>
+							<a href="../EjerciciosCss/divideColores.html"> Pagina divide colores 
+							</a>
+						</li>
+						<li>
+							<a href="../EjerciciosCss/divideDobleColores.html"> Pagina divide doble colores
+							</a>
+						</li>
+						<li>
+							<a href="../EjerciciosCss/cuadrosEscalonados.html"> Cuandros Escalonados
+							</a>
+						</li>
+						<li>
+							<a href="../EjerciciosCss/tableroAjedrez.html"> Tablero Ajedrez
+							</a>
+						</li>
+						<li>
+							<a href="../EjerciciosCss/cuadrosTamanos.html"> Cuadros diferentes tamanos
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
 		</div>
 	</div>
-	
+
 </body>
 </html>

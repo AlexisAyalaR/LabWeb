@@ -1,0 +1,81 @@
+*{
+
+}
+
+body{
+	margin: 0;
+	background-color: #f8f9fa;
+	padding: 0;
+}
+
+
+h1{
+	text-align: center;
+	font-size: 320%;
+	margin-top: 3.5%;
+	margin-bottom: 4%;
+}
+
+
+#bRegresa{
+	color: white;
+	font-size: 140%;
+	text-decoration: none;
+	position: absolute;
+	top: 0.5%;
+	right: 2%;
+}
+
+.indice{
+	text-align: center;
+	color: white;
+	font-size: 130%;
+	margin-bottom: 1.1%;
+}
+
+.elementosIndice{
+	margin-left: 3.6%;
+	text-decoration: none;
+	color: white;
+	padding: 1%;
+	background-color:   #085caa;
+	border: 1px solid   #085caa;
+	border-radius: 10px 10px 6px 0px;
+}
+
+.titulo{
+	border: 10px solid #b6dafc;
+	border-radius: 100px 10px 100px 10px;
+	margin-bottom: 0%;
+	background-color: #0969c1;
+	color: white;
+}
+
+.info{
+	margin-top: 2%;
+}
+
+.infoTitulo{
+	box-sizing: border-box;
+	border: 10px solid #88c3f7;
+	border-radius: 0px 0px 10px 10px;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	margin-bottom: 2%;
+	margin-top: 0%;	
+	background-color: #2893f0;
+	color: white;
+}
+
+.elementosInfo{
+	margin: 0% 3% 3% 3%;
+	border: 6px solid #2490f5;
+	padding: 0% 0% 0% 0%;
+	background-color: #e7f3fd;
+	text-align: center;
+}
+
+.ejerciciosCss{
+	line-height: 210%;
+	text-align: left;
+}
