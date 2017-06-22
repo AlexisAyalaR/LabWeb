@@ -1,13 +1,225 @@
+<!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" type="text/css" href="../../css/guiaJs.css">
 	<title>Guia JavaScript</title>
 </head>
 <body>
-	<p>No sea metiche</p>
 
-	<p><a href="../index.html"> Regresa</a></p>
+	<div class="main">
 
-	<div class="elementoDiv">
+		<div class="titulo">
+
+			<header>
+
+				<h1>Guia para JAVASCRIPT</h1>
+
+				<p><a href="../index.html" id="bRegresa"> Regresa</a></p>
+
+				<div class="indice">
+
+					<a href="#variables" class="elementosIndice">
+						<span>Variables</span>
+					</a>
+					
+					<a href="#objetos" class="elementosIndice">
+						<span>Objetos</span>
+					</a>
+					
+					<a href="#funciones" class="elementosIndice">
+						<span>Funciones</span>
+					</a>
+					
+					<a href="#ciclosYPreguntas" class="elementosIndice">
+						<span>Ciclos</span>
+					</a>
+					
+					<a href="#metodosImportantes" class="elementosIndice">
+						<span>Metodos Importantes</span>
+					</a>
+						
+					<a href="#eventos" class="elementosIndice">
+						<span>Eventos</span>
+					</a>
+					
+					<a href="#Ejercicios_Javascript" class="elementosIndice">
+						<span>Ejercicios Javascript</span>
+					</a>
+				</div>
+
+			</header>
+
+		</div>
+
+
+
+		<div class="info">
+
+			<img src="../../img/bee.png" width="50" height="40" id="bee">
+
+			<div class="elementoInfo" id="variables">
+
+				<h2>Variables</h2>
+				
+				<p>Javascript es un lenguaje de programacion orientado a objetos. Por tanto se pueden declarar variables, pero a diferencia de otros lenguajes, no se tiene que especificar el tipo de variable:</p>
+				
+				<p>var nombreVariable = valor;</p>
+
+			</div>
+
+			<div class="elementoInfo" id="objetos">
+
+				<h2>Objetos</h2>
+
+				<p>Tambien se pueden crear objetos en forma de variables donde se pueden especificar todas las caracteristicas necesarias. El formato que se utiliza se conoce como JSON:</p>
+
+				<p>var nombreObjeto = {
+					<br class="propiedades">propiedad1: "Valor1",
+					<br class="propiedades">propiedad2: "Valor2",
+					<br>
+				};</p>
+
+			</div>
+
+			<div class="elementoInfo" id="funciones">
+
+				<h2>Funciones</h2>
+
+				<p>Tambien se pueden crear funciones, solamente no se especifica el tipo del dato que se regresa. La sintaxis es la siguiente:</p>
+
+				<p>function nombreFuncion( parametro1, parametro2 ) { 
+					<p class="propiedades">codigo;</p>
+					<p class="propiedades">codigo;</p>
+					<p class="propiedades">codigo;</p>
+					<p class="propiedades">return variable;</p>
+					}
+				</p>
+
+				<p>No tiene porque regresarse una variable, pero es algo comun.</p>
+
+			</div>
+
+			<div class="elementoInfo" id="ciclosYPreguntas">
+
+				<h2>Ciclos y Declaraciones</h2>
+
+				<p>Al igual que con otros lenguajes orientados a objetos, existen ciclos. La sintaxis que se usa se presenta a continuacion:</p>
+
+					<h3>if-else</h3>
+
+					<p>if( condicion ) {
+						<p class="propiedades">Si se cumple, corre este codigo</p>
+						<p class="propiedades">}</p>
+						else{
+						<p class="propiedades">Si no se cumple, corre este</p>
+						<p>}</p>
+					</p>
+
+
+					<h3>for</h3>
+
+					<p>for (var i = tamano ; i &lt;= variable; i++) {
+						<p class="propiedades"> Se ejecuta este codigo</p>
+						<p>};</p>
+					</p>
+
+					<h3>while</h3>
+
+					<p>while( condicion ) {
+    					<p class="propiedades">codigo a ejecutar</p>
+    					<p>}</p>
+    				</p>
+
+			</div>
+
+			<div class="elementoInfo" id="metodosImportantes">
+
+				<h2>Metodos importantes de JS</h2>
+
+				<div class="elementoInfo" id="documento">
+
+					<h3>Document</h3>
+
+					<p>Existen metodos que modifican o permiten conocer ciertas partes del documento:</p>
+
+						<h4>document.getElementById( "id" )</h4>
+
+						<p>Permite accesar a un elemento del documento a partir de su id</p>
+
+
+						<h4>document.createElement( "tipo" )</h4>
+
+						<p>Permite crear un nuevo elemento</p>
+
+
+						<h4>document.createTextNode( "texto" )</h4>
+
+						<p>Crea un texto para pegarselo a un objeto</p>
+
+				</div>
+
+				<div class="elementoInfo" id="otros">
+
+					<h3>Modificar elementos</h4>
+
+						<h4>elemento.appendChild</h4>
+
+						<p>Agrega un elemento a otro elemento como su "hijo"</p>
+
+
+						<h4>elemento.value</h4>
+
+						<p>Muestra el valor que tiene el elemento</p>
+
+
+						<h4>element.setAttribute("atributo", "nombre")</h4>
+
+						<p>Permite agregar o cambiar un atributo a un elemento</p>
+
+
+						<h4>elemento.innerHTML</h4>
+
+						<p>Escribe sobre el elemento en el documento</p>
+
+
+						<h4>alert( "Mensaje" )</h4>
+
+						<p>Despliega un mensaje</p>
+
+
+					<h3>Estilo</h3>
+
+						<h4>elemento.style.nombreMetodoCSS = "valor"</h4>
+						
+						<p>Al tener un elemento tambien se puede modificar el estilo que este tiene con los metodos de CSS. La unica diferencia es que si un metodo tiene un guion, se tendra que escribir seguido y con mayuscula. Por ejemplo margin-top seria marginTop</p>
+
+				</div>	
+
+
+			</div>
+
+			<div class="elementoInfo" id="eventos">
+
+				<h2>Eventos</h2>
+
+				<p>Para poder crear un evento, primero se tiene que poder tener acceso al elemento con el que se disparara. Al ya tener el elemento, se agrega el evento con el siguiente metodo:</p>
+
+				<h4>elemento.addEventListener( "formaDisparo" , function() { 
+					<br>funcionAEjecutar( parametro1 , parametro2 );
+					<br>});
+				</h4>
+
+				<p>Tambien se puede llamar el metodo desde HTML agregando la forma en la que se disparara (por ejemplo "onclick") como atributo:</p>
+
+				<h4> onclick = "funcion()"</h4>
+
+			</div>
+
+		</div>
+
+	</div>	
+
+	<div class="elementoInfo">
 
 		<h2>
 			<span id="Ejercicios_Javascript">Ejercicios Javascript
