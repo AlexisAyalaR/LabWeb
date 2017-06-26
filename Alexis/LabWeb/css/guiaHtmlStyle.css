@@ -54,20 +54,14 @@ header h1{
 
 }
 
-header #bIndice{
-	float: left;
-	font-size: 140%;
-	margin-left: 32%;
-	margin-top: 3.5%;
-	cursor: pointer;
-}
 
 header #bOtro{
 	color: white;
 	float: left;
 	font-size: 140%;
-	margin-left: 6%;
+	margin-left: 12%;
 	margin-top: 3.50%;
+	cursor: pointer;
 }
 
 body *{
@@ -242,6 +236,32 @@ article{
 		height: 7985px;
     }
     #txtPrincipal{
-	width: 100%;
+		width: 100%;
+	}
+
+	header{
+		text-align: center;
+	}
+
+	header #bOtro{
+		color: white;
+		float: left;
+		font-size: 140%;
+		position: relative;
+		margin-left: 2%;
+		margin-top: 6%;
+	}
+
 }
+
+@media only screen and (max-width: 1000px) {
+	header #bOtro{
+		color: white;
+		float: left;
+		font-size: 140%;
+		position: relative;
+		margin-left: 4%;
+		margin-top: 4%;
+	}
+
 }

@@ -1,7 +1,8 @@
 *{
  font-family: monospace;
  font-size: 102%;
- color: black;
+ color: #f2f2f2;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 h1{
@@ -24,7 +25,6 @@ body{
 
 .indice{
 	text-align: center;
-    color: white;
     font-size: 130%;
     padding-bottom: 1.1%;
     padding-top: 1.1%;
@@ -37,14 +37,12 @@ body{
 	font-size: 88%;
 	margin-left: 2.5%;
 	text-decoration: none;
-	color: white;
 	padding: 1%;
 	border-radius: 10px 10px 6px 0px;
 
 }
 
 #bRegresa{
-	color: white;
 	font-size: 140%;
 	text-decoration: none;
 	position: absolute;
@@ -56,17 +54,54 @@ body{
 	border: 10px solid #ccad00;
 	border-radius: 15px/50px;
 	margin-bottom: 0%;
-	color: white; 
 	background-color: #ffd900;
 }
 
 .elementoInfo{
 	border: 10px solid #ccad00;
 	border-radius: 15px/50px;
-	color: white; 
 	background-color: #ffe866;
-	margin-top: 2%;
-	padding: 
+	padding: 1%;
+	margin: 1%;
 }
 
 
+.bee{
+	width: 50px;
+	height: 40px;
+}
+
+#beeImg{
+	position: absolute;
+	animation-name: myfirst;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    cursor: pointer;
+    
+}
+
+@keyframes myfirst {
+    0%   {left:0px; top:0px;}
+    5%  {left:1000px; top:100px;}
+    10%  {left:200px; top:200px;}
+    15%  {left:0px; top:1000px;}
+    20% {left:1000px; top:500px;}
+    25%   {left:0px; top:200px;}
+    30%  {left:600px; top:0px;}
+    35%  {left:600px; top:600px;}
+    40%  {left:1200px; top:1200px;}
+    45% {left:1500px; top:1500px;}
+    50%   {left:500px; top:0px;}
+    55%  {left:200px; top:0px;}
+    60%  {left:500px; top:500px;}
+    65%  {left:500px; top:500px;}
+    70%  {left:500px; top:500px;}
+    75%  {left:500px; top:500px;}
+    80% {left:400px; top:900px;}
+    85%   {left:0px; top:1800px;}
+    90%  {left:900px; top:0px;}
+    95%  {left:700px; top:700px;}
+    100%  {left:700px; top:700px;}
+}

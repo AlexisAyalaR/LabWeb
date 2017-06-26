@@ -100,20 +100,18 @@ h5{
 	text-align: left;
 }
 
-#bee{
-	width: 100px;
-	animation-name: example;
-    animation-duration: 2s;
-    animation-timing-function: linear;
-    animation-delay: 2s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+@media only screen and (max-width: 1080px) {
+	.indice{
+		color: white;
+		font-size: 100%;
+	}
+
 }
 
-@keyframes example {
-    0%   {left:0px; top:0px;}
-    25%  {left:200px; top:0px;}
-    50%  {left:200px; top:200px;}
-    75%  {left:0px; top:200px;}
-    100% {left:0px; top:0px;}
+@media only screen and (max-width: 800px) {
+	.indice{
+		color: white;
+		font-size: 80%;
+	}
+
 }
