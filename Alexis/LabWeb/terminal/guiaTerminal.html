@@ -36,8 +36,42 @@
 			<h3>rm</h3>
 			<p>Borra un documento</p>
 
+			<h3>rmdir</h3>
+			<p>Borra un directorio</p>
+
+			<h3>wc</h3>
+			<p>Cuenta las letras de un documento</p>
+
+			<h3>|</h3>
+			<p>Agregar una "operacion" a un resultado</p>
+			<p>Ejemplo: head texto | wc</p>
+			<p>Lo que sale de head, se corre con wc</p>
+
+			<h3>head</h3>
+			<p>Muestra el inicio de un documento</p>
+
+			<h3>tail</h3>
+			<p>Muestra el final de un documento</p>
+
+			<h3>grap</h3>
+			<p>Buscas algo en un archivo e imprime todo lo que tenga esa palabra</p>
+
 			<h3>which</h3>
 			<p>Regresa el camino a un archivo dado</p>	
+
+			<h3>curl</h3>
+			<p>Traer o copiar de un URL</p>
+
+			<h3>open</h3>
+			<p>Abre un directorio</p>
+
+			<h3>find</h3>
+			<p>Encuenta un documento. La sitaxis es la siguiente</p>
+			<p>find dondeBuscas -atributo 'nombre'</p>
+			<p>Ejemplo: find Desktop -name 'LabWeb'</p>
+
+			<h3>mkdir</h3>
+			<p>crea un directorio</p>
 
 			<h3>ls</h3>
 			<p>Muestra lo que hay en el directorio presente</p>
@@ -55,12 +89,20 @@
 
 			<h3>cd</h3>
 			<p>Cambia al directorio que se da como parametro</p>
+			<p>cd - te lleva al ultimo directorio en el cual estuviste</p>
 
 			<h3>touch</h3>
 			<p>Crea un archivo vacio</p>
 
+			<h3>less</h3>
+			<p>Muestra lo que hay en un archivo pero con interactividad</p>
+			<p>Se puede utilizar shift G para moverse, tambien puedes buscar con /aBuscar</p>
+
 			<h3>q</h3>
 			<p>Te regresa a la terminal</p>
+
+			<h3>pwd</h3>
+			<p>Ver donde estas</p>
 
 			<h3>></h3>
 			<p>Operador redireccional</p>
@@ -70,7 +112,23 @@
 			<p>Operador de adjuntar</p>
 
 			<h3>!</h3>
-			<p>Coloca el ultimo comando</p>
+			<p>Corre el utlimo comando que empieza con lo que pongas como parametro</p>
+
+			<h3>!!</h3>
+			<p>Core el ultimo comando</p>
+
+			<h3>.</h3>
+			<p>Se refiere al directorio seleccionado</p>
+
+			<h3>..</h3>
+			<p>Se refiere al siguiente directorio con mayor herarquia</p>
+
+			<h3>&amp;&amp;</h3>
+			<p>Correr mas de un comando a la vez. Solo se ejecutan los demas si se ejecutaron los anteriores</p>
+
+			<h3>sudo</h3>
+			<p>Entrar como "super usuario" para hacer cosas que requieran permiso</p>
+			<p>Ejemplo: sudo touch alexis</p>
 
 			<h3>Control + C</h3>
 			<p>Cancela la accion que se este realizando</p>
@@ -86,9 +144,15 @@
 
 			<h3>Control + L</h3>
 			<p>Borra la terminal</p>
+
+			<h3>Control + R</h3>
+			<p>Correr lo ultimo que empieza con...</p>
 			
 			<h3>Alt + Click</h3>
 			<p>Te coloca en donde clickeaste para poder modificar</p>
+
+			<h2>Ejercicio 1</h2>
+			<p>cd ~ &amp;&amp; cd Desktop/Ejercicio1 &amp;&amp; touch Ejercicio.txt &amp;&amp; cd ../LabWeb/Alexis &amp;&amp; find LabWeb -name '*' > ayuda.txt &amp;&amp; cp ayuda.txt Ejercicio.txt &amp;&amp; rm ayuda.txt</p>
 	</div>
 </body>
 </html>
