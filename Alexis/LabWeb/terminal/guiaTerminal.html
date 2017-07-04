@@ -33,7 +33,7 @@
 			<p>Copia un documento</p>
 			<p>Ejemplo: cp nombreViejo nombreNuevo</p>
 
-			<h3>rm</h3>
+			<h3> </h3>
 			<p>Borra un documento</p>
 
 			<h3>rmdir</h3>
@@ -152,7 +152,13 @@
 			<p>Te coloca en donde clickeaste para poder modificar</p>
 
 			<h2>Ejercicio 1</h2>
-			<p>cd ~ &amp;&amp; cd Desktop/Ejercicio1 &amp;&amp; touch Ejercicio.txt &amp;&amp; cd ../LabWeb/Alexis &amp;&amp; find LabWeb -name '*' > ayuda.txt &amp;&amp; cp ayuda.txt Ejercicio.txt &amp;&amp; rm ayuda.txt</p>
+			<p>touch Ejercicio.txt &amp;&amp; find * > Ejercicio.txt</p>
+
+			<h2>Ejercicio 2</h2>
+			<p>find * -name 'LabWeb' -print 2>/dev/null | head -1</p>
+
+			<h2>Documentacion</h2>
+			<p>http://conqueringthecommandline.com/book</p>
 	</div>
 </body>
 </html>
