@@ -1,0 +1,1 @@
+Para que funcione el algoritmo, se tiene que bajar el repositorio en el escritorio. En caso de que no funcione, cambiar la dirección a esta carpeta en la primera linea de Ejercicio3.sh
