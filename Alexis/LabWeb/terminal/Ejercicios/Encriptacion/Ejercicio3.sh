@@ -35,29 +35,27 @@ cd Desktop/LabWeb/Alexis/LabWeb/terminal/Ejercicios/Encriptacion
 	#Borra la clase
 	rm D1.class
 
+	trap 'touch encripta.java 
 
-## Codificando
-
-	#Crea el archivo para encriptar
-	touch encripta.java
-
-	#Copia .encripta.java a encripta.java
 	cat .encripta.java > encripta.java
 
-	#Compila y corre el algoritmo para encriptar
 	javac encripta.java && java encripta
 
-	#Copia el texto encriptado a D1.java
-	cat aEncriptar.txt > D1.java
+	cat aEncriptar.txt > D1.java &
 
-	#Borra los archivos de encriptamiento
 	rm encripta.java && rm encripta.class
 
-	#Borra el archivo aEncriptar.txt
 	rm aEncriptar.txt
 
-	#Cambia el .java a .nel
-	for f in *.java; do         mv "$f" "$(basename "$f" .java).nel";     done
+	for f in *.java; do         mv "$f" "$(basename "$f" .java).nel";     done' SIGHUP EXIT
+
+	while true
+	do
+		sleep 10
+	done
+
+
+
 
 $SHELL
 
