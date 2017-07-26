@@ -1,4 +1,4 @@
-cd Desktop/LabWeb/Alexis/LabWeb/terminal/Ejercicios/Encriptacion
+cd ../../../Volumes/Macintosh\ HD/Applications/XAMPP/htdocs/LabWeb/Alexis/LabWeb/terminal/Ejercicios/Encriptacion
 
 ## Decodificando
 
@@ -51,7 +51,7 @@ cd Desktop/LabWeb/Alexis/LabWeb/terminal/Ejercicios/Encriptacion
 
 	while true
 	do
-		sleep 10
+		sleep 6
 	done
 
 
